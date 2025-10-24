@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Porfolio</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="styles.css">
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
@@ -19,8 +19,8 @@
                     <li><a href="#home">HOME</a></li>
                     <li><a href="#about">ABOUT</a></li>
                     <li><a href="#skills">SKILLS</a></li>
-                    <li><a href="#portfolio">RESUME PORTFOLIO</a></li>
-                    <li><a href="Abhishek_Tiwari (2).pdf" download="">RESUME</a></li>
+                    <li><a target="_blank" href="https://abhishek-resume-portfolio.netlify.app/">RESUME PORTFOLIO</a></li>
+                    <li><a href="#project">PROJECT</a></li>
                     <li><a href="#exp">EXPERIENCES</a></li>
                     <li><a href="#contact">CONTACT</a></li>
                 </ul>
@@ -28,13 +28,13 @@
         </div>
     </header>
 
-    <section class="hero">
+    <section class="hero" id="home">
         <div class="hero-content">
             <p class="hero-welcome">Hello,Welcome</p>
             <h2 class="hero-h2">I AM ABHISHEK TIWARI</h2>
             <p class="hero-para">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate fugiat ut nobis expedita possimus earum facere, quos laboriosam ipsum. Ex, enim amet aperiam iure ut impedit reprehenderit tenetur unde dolore eum id esse, expedita dolorum repellat repudiandae possimus veritatis quo eos consequatur!</p>
-            <button>Contact us</button>
+                I’m a Frontend Developer who loves turning ideas into beautiful, functional websites. With strong skills in React, JavaScript, HTML, and CSS, I focus on creating smooth user experiences. Currently, I’m diving deeper into backend technologies to become a Full Stack Developer capable of handling every part of a web application.</p>
+            <button >Contact us</button>
         </div>
     </section>
 
@@ -50,7 +50,8 @@
                 </div>
                 <p class="hero-id-para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi repellat illum sint voluptatibus architecto, recusandae laudantium libero sit error cumque unde labore ab numquam consequatur vel odio doloribus similique. Dolorum!</p>
                 <p class="hero-id-para2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla velit similique, repudiandae cupiditate quibusdam voluptas eos facere tenetur a dolores!</p>
-                <button class="btn2">Contact us</button>
+                <!-- <button class="btn2">Contact us</button> -->
+                <button class="btn2"><a class="btn2" href="Abhishek_Tiwari (2).pdf" download="">Download Resume</a></button>
             </div>
         </div>
     </section>
@@ -129,26 +130,57 @@
                 </div>
             </section>
 <!-- -------------------------------------------------------------------------------------------------- -->
-    <section class="information">
-        <div class="sub-info">
-            <div class="grand-info1 info">
-                <h2>
-                      My <span class="highlight">Portfolio</span>
-                    </h2>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit saepe nam suscipit asperiores cupiditate ad reprehenderit facilis maiores quidem dicta nulla laborum?</p>
-            </div>
-            <div class="grand-info2">
-                    <img class="port-img" src="Rectangle 1024.png" alt="">
 
-                <div class="big4">
-                    <img class="port-img1" src="Rectangle 1025.png" alt="">
-                    <img class="port-img1" src="Rectangle 1026.png" alt="">
-                    <img class="port-img1" src="Rectangle 1027.png" alt="">
-                    <img class="port-img1" src="Rectangle 1028.png" alt="">
-                </div>
+<div id="portfolio" >
+    <h2 class="heading">My <span>Project</span></h2>
+    <div class="line"></div>
+
+    <div class="project-container" id="project">
+        <div class="project">
+            <img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fGNvZGluZ3xlbnwwfHx8fDE2NTg0MjU5NjM&ixlib=rb-1.2.1&q=80&w=400" alt="">
+            <div class="card">
+                <h3>RojGar Mitra</h3>
+                <p>Built a secure backend for “Rojgar Mitra” with JWT authentication, Bcrypt encryption, 
+                and role-based access control. Integrated RESTful APIs for job posting, 
+                application tracking, and company profiles using the MVC pattern.</p>
+                <span>MongoDB</span><span>Express</span><span>React</span><span>Node</span>
             </div>
         </div>
-    </section>
+        <div class="project">
+            <img src="https://images.unsplash.com/photo-1542744095-291d1f67b221?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDEyfHx3ZWJzaXRlJTIwZGVzaWdufGVufDB8fHx8MTY1ODQyNTk5OQ&ixlib=rb-1.2.1&q=80&w=400" alt="">
+            <div class="card">
+                <h3>AI Image Generator</h3>
+                <p>Developed an AI-powered Image Generator capable of producing custom visuals from user prompts. 
+                Utilized JavaScript and API integration to handle real-time requests efficiently, 
+                enhancing creativity through an intuitive, modern interface.</p>
+                <span>HTML</span><span>CSS</span><span>JavaScript</span><span>OpenAI API</span>
+            </div>
+        </div>
+
+        <div class="project">
+            <a href="https://gitview-profile.netlify.app/" target="_blank"><img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fGNvZGluZ3xlbnwwfHx8fDE2NTg0MjU5NjM&ixlib=rb-1.2.1&q=80&w=400" alt=""></a>
+            <div class="card">
+                <h3>GitHub Profile Finder</h3>
+                <p>Created a GitHub Profile Finder web app that fetches and displays user data dynamically 
+                using the GitHub API. Implemented features like repository pagination, search functionality, 
+                and a responsive UI built with HTML, CSS, and JavaScript..</p>
+                <span>HTML</span><span>CSS</span><span>JavaScript</span><span>GitHub REST API</span>
+            </div>
+        </div>
+
+        <div class="project">
+            <a href="" target="_blank"><img src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDN8fGNvZGluZ3xlbnwwfHx8fDE2NTg0MjU5NjM&ixlib=rb-1.2.1&q=80&w=400" alt=""></a>
+            <div class="card">
+                <h3>Portfolio</h3>
+                <p>A responsive portfolio website showcasing my skills and projects. 
+                Built using HTML, CSS, and JavaScript with smooth scroll effects 
+                and modern UI design to enhance the user experience.</p>
+                <span>HTML</span><span>CSS</span><span>JavaScript</span>
+            </div>
+        </div>
+        
+    </div>
+</div>
 
     <!-- ------------------------------------------------------------------------------------------------------------------------- -->
     
