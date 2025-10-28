@@ -23,6 +23,7 @@
                     <li><a href="#project">PROJECT</a></li>
                     <li><a href="#exp">EXPERIENCES</a></li>
                     <li><a href="#contact">CONTACT</a></li>
+                    <a href=""><i class="fa-solid fa-bars"></i></a>
                 </ul>
             </nav>
         </div>
@@ -48,9 +49,23 @@
                     <p class="para">About</p>
                     <p class="me">Me</p>
                 </div>
-                <p class="hero-id-para1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi repellat illum sint voluptatibus architecto, recusandae laudantium libero sit error cumque unde labore ab numquam consequatur vel odio doloribus similique. Dolorum!</p>
-                <p class="hero-id-para2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla velit similique, repudiandae cupiditate quibusdam voluptas eos facere tenetur a dolores!</p>
-                <!-- <button class="btn2">Contact us</button> -->
+                <p class="hero-id-para1">
+                    Hi, I’m <strong>Abhishek Tiwari</strong>, a passionate <strong>Full Stack Developer</strong> &
+                    <strong>Front-End Web Developer</strong> who loves turning ideas into 
+                    interactive, user-friendly web experiences.
+                </p>
+                <p class="hero-id-para1">
+                    I specialize in building responsive websites using 
+                    <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, 
+                    and <strong>ReactJS</strong>. I enjoy solving problems, learning new 
+                    technologies, and improving my skills every day.
+                </p>
+                <p class="hero-id-para1">
+                    When I’m not coding, you’ll find me exploring new design trends or 
+                    learning backend technologies to become a full-stack developer. 
+                    My goal is to create clean, efficient, and visually appealing digital 
+                    experiences that make an impact.
+                </p>
                 <button class="btn2"><a class="btn2" href="Abhishek_Tiwari (2).pdf" download="">Download Resume</a></button>
             </div>
         </div>
@@ -258,13 +273,16 @@
                 </div>
 
                 <!-- Right side: Contact Form -->
-                <div class="contact-form">
+                <div id="contact-form"  class="contact-form">
                     <h1>Get in Touch</h1>
-                    <form>
-                        <input type="text" placeholder="Name" required>
-                        <textarea placeholder="Message" required></textarea>
-                        <button type="submit">Submit</button>
+                    <form id="contact-form" action="https://formspree.io/f/xrboppnw" method="POST">
+                    <input type="text" name="name" placeholder="Name" required>
+                    <input type="email" name="_replyto" placeholder="Email" required>
+                    <textarea name="message" placeholder="Message" required></textarea>
+                    <input type="hidden" name="_subject" value="New message from portfolio contact form">
+                    <button type="submit">Submit</button>
                     </form>
+
                 </div>
             </div>
         </div>
