@@ -80,12 +80,12 @@ nav {
 }
 
 @media (max-width: 768px) {
-   .menu-icon {
-    display: block; /* show hamburger */
+  .nav-link {
+    display: none;  /* hide Home/About/Contact links */
   }
 
-  .nav-link {
-    display: none;
+  .menu-icon {
+    display: block;  /* show hamburger icon */
   }
 }
 
