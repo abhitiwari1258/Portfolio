@@ -664,14 +664,14 @@ h2 {
 }
 
 .project{
-    height: 450px;
+    height: 500px;
     width: 550px;
     margin-top: 20px;
     margin-bottom: 20px;
     background-color: #1e1e1e;
     border-radius: 12px;
     border: 1px solid #3a3a3a;
-    /* overflow: none; */
+    overflow: hidden;
     transition: transform 0.5s ease, box-shadow 0.5s ease;
 
 } 
