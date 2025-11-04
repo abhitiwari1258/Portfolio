@@ -22,6 +22,7 @@ header {
   height: 60px;
   /* background-color: #080618; */
   background-color: #000;
+  z-index: 1000;
 }
 
 .nav-container {
@@ -64,10 +65,28 @@ nav {
   text-decoration: none;
   color: #ffffff;
   font-weight: 400px;
+  transition: color 0.3s ease;
 }
 
 .nav-link a:hover {
   color: #F0A93E;
+}
+
+.menu-icon {
+  display: none;  /* hide by default */
+  font-size: 24px;
+  color: white;
+  margin-right: 20px;
+}
+
+@media (max-width: 768px) {
+   .menu-icon {
+    display: block; /* show hamburger */
+  }
+
+  .nav-link {
+    display: none;
+  }
 }
 
 /* //////////////////////////////// */
@@ -512,9 +531,8 @@ h2 {
 
 
 .experiences {
-  height: 100vh;
+  height: 90%;
   width: 100%;
-  /* background-color: #111827; */
   background-color: #1B1B1B;
   color: #ffffff;
   padding-top: 80px;
@@ -523,6 +541,7 @@ h2 {
 .experiences-content {
   max-width: 1200px;
   margin: auto auto;
+  padding-bottom: 20px;
 }
 
 .exp {
@@ -652,7 +671,7 @@ h2 {
     background-color: #1e1e1e;
     border-radius: 12px;
     border: 1px solid #3a3a3a;
-    overflow: hidden;
+    /* overflow: none; */
     transition: transform 0.5s ease, box-shadow 0.5s ease;
 
 } 

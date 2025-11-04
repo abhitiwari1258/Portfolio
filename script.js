@@ -5,7 +5,7 @@ const form = document.getElementById('contact-form');
   form.addEventListener('submit', async function (e) {
     e.preventDefault();
     const url = form.action;
-    const formData = new FormData(form);
+    const formData = new FormData(form); // it create new object and contain all inputs value
 
     try {
       const res = await fetch(url, {

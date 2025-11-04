@@ -1,3 +1,8 @@
+What is FormData()?
+
+FormData is a built-in JavaScript object used to collect and send form data (like inputs, files, etc.) easily — especially when making HTTP requests with fetch() or XMLHttpRequest
+
+
 This is my personal portfolio website built using HTML, CSS, and JavaScript.
 It showcases my skills, projects, and contact details. The website is currently a work in progress, and I’m continuously improving it — especially making it fully responsive for all devices.                  |
 
