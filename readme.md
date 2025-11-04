@@ -11,7 +11,7 @@ It showcases my skills, projects, and contact details. The website is currently 
 
 🔹 Structure and design completed using HTML & CSS [Done]
 🔹 Basic interactivity added with JavaScript – in progress  [working]
-🔹 Responsive design (mobile view) – in progress [working]
+🔹 Responsive design (mobile view) – in progress [Done]
 🔹 Adding hover effects and animations  [Done]
 
 -------------------Technologies Used--------------------------
@@ -23,10 +23,10 @@ JavaScript (ES6) – For interactivity
 
 ---------------Upcoming Features-----------------
 
-Responsive layout for mobile and tablet
-Smooth scroll and animation effects
-Project showcase section
-Contact form integration
+Responsive layout for mobile and tablet [Done]
+Smooth scroll and animation effects [Done]
+Project showcase section [Done]
+Contact form integration [Done]
 
 ------------------What I’m Learning------------------
 
